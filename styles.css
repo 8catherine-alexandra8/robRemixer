@@ -1,0 +1,30 @@
+#top-banner {
+	background-image: url(sources/jumbotronImg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+#top-header {
+	text-align: right;
+	padding-left: 20px;
+	background-color: rgba(0, 0, 0, 0.55);
+	color: #aaaaaa;
+}
+.banner-text {
+	text-align: right;
+	color: #dddfd4;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+#main {
+	background-image: linear-gradient(black, #dddfd4 50%);
+	min-height: 90vh;
+}
+#drumkit-container {
+	padding-top: 120px;
+	margin: auto;
+}
+.img-thumbnail {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
