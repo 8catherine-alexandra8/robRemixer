@@ -1,3 +1,7 @@
+#body {
+	min-height: 100vh;
+	background-color: #aaaaaa;
+}
 #top-banner {
 	background-image: url(sources/jumbotronImg.png);
 	background-size: cover;
@@ -18,7 +22,7 @@
 }
 #main {
 	background-image: linear-gradient(black, #dddfd4 50%);
-	min-height: 90vh;
+	min-height: 68vh;
 }
 #drumkit-container {
 	padding-top: 120px;
@@ -27,4 +31,18 @@
 .img-thumbnail {
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+#footer {
+	background-color: #aaaaaa;
+	height: 20px;
+	min-width: 100vw;
+	text-align: center;
+	font-size: 10pt;
+}
+#footer-text {
+	margin-bottom: 0px;
+}
+a {
+	height: 20px;
+	width: 20px;
 }
