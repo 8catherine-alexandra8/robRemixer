@@ -2,11 +2,13 @@ document.querySelectorAll('.img-thumbnail').forEach((item) => {
 	item.addEventListener('click', function() {
 		let buttonId = this.id;
 		playClip(buttonId);
+		boxAnimation(buttonId);
 	});
 });
 
 document.addEventListener('keydown', function(event) {
 	playClip(event.key);
+	boxAnimation(event.key);
 });
 
 function playClip(key) {
@@ -48,4 +50,9 @@ function playClip(key) {
 			console.log(buttonId);
 			break;
 	}
+}
+
+function boxAnimation(currentKey) {
+	let activeButton = document.getElementById(currentKey);
+	activeButton.classList.add('pressed');
 }
