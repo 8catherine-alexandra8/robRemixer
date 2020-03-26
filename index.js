@@ -55,4 +55,7 @@ function playClip(key) {
 function boxAnimation(currentKey) {
 	let activeButton = document.getElementById(currentKey);
 	activeButton.classList.add('pressed');
+	setTimeout(function() {
+		activeButton.classList.remove('pressed');
+	}, 100);
 }
